@@ -3,36 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>桃園老人分布平均</title>
+    <title>嵌入圖表與說明</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        .text-box {
-            border: 2px solid black;
-            padding: 20px 40px;
-            text-align: center;
-            color: #5D3A9B; /* 深紫色 */
-            font-size: 1.5rem;
-            font-weight: bold;
-            background: #fff;
+        .chart-container {
             margin-bottom: 20px;
         }
-        iframe {
-            border: none;
+        .chart-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <div class="text-box">
-        此圖為65-69歲的老人分布情況<br>可看出主要集中在人口眾多的都市，其他地區也有不少的數量，顯示需投入許多長照設備及服務來提升老年人福利
+    <h1>桃園市老年人口統計</h1>
+
+    <!-- 第一個圖表 -->
+    <div class="chart-container">
+        <div class="chart-title">桃園65-79的老年人口平均</div>
+        <iframe src="https://plotdb.io/v/chart/37441" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+        <div class="description">
+            <p>這是第一個圖表的文字說明，可以在這裡解釋圖表的內容或用途，例如數據來源或分析詳細資訊。</p>
+        </div>
     </div>
-     <iframe src="https://plotdb.io/v/chart/37376" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+
+    <!-- 第二個圖表 -->
+    <div class="chart-container">
+        <div class="chart-title">桃園80-100的老年人口平均</div>
+        <iframe src="https://plotdb.io/v/chart/37440" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+        <div class="description">
+            <p>這是第二個圖表的文字說明，可以在這裡解釋圖表的內容或用途，例如數據來源或分析詳細資訊。</p>
+        </div>
+    </div>
+</body>
 </html>
