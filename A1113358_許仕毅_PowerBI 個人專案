@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>A1113358 許仕毅 PowerBI 個人專案</title>
+    <meta name="viewport" content="width=600, initial-scale=1">
+    <style>
+        body {
+            font-family: "Segoe UI", "Microsoft JhengHei", Arial, sans-serif;
+            background-color: #f7f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+            padding: 36px 32px 32px 32px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.1rem;
+            color: #223366;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 28px;
+        }
+        .powerbi-frame {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+        iframe {
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(34, 51, 102, 0.08);
+        }
+        .desc {
+            color: #444;
+            font-size: 1.07rem;
+            line-height: 1.7;
+            margin-top: 12px;
+        }
+        @media (max-width: 650px) {
+            .container {
+                padding: 12px 2vw;
+            }
+            iframe {
+                width: 99vw;
+                height: 62vw;
+                min-width: 320px;
+                min-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A1113358 許仕毅</h1>
+        <div class="subtitle">PowerBI 個人專案展示</div>
+        <div class="powerbi-frame">
+            <iframe title="A1113358_許仕毅_PowerBI個人專案"
+                width="600"
+                height="373.5"
+                src="https://app.powerbi.com/view?r=eyJrIjoiYWJmNmQyNGEtNzU1OS00YjUyLWE0MzUtMzRiZDkxZGQzMjkwIiwidCI6IjVhNDg0OTUzLTc3ZWYtNDJlYy05MGNmLTJmNGUxMDM3ZmZjNyIsImMiOjEwfQ%3D%3D"
+                allowfullscreen="true">
+            </iframe>
+        </div>
+        <div class="desc">
+            這是許仕毅的 PowerBI 個人專案，透過互動式儀表板展示數據分析成果。<br>
+            請點擊報表中的各項元件進行互動與探索，若無法顯示請確認網路連線或刷新頁面。<br>
+            <br>
+            <b>專案特色：</b>
+            <ul>
+                <li>視覺化圖表和數據指標一目了然</li>
+                <li>支援多元資料篩選與互動分析</li>
+                <li>可作為資料決策參考依據</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
